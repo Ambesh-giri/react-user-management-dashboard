@@ -1,4 +1,4 @@
-import UserCard from "./components/UserCard";
+import UserCard from "../components/UserCard";
 import { useEffect, useState } from "react";
 // import UserCard from "../components/UserCard";
 
@@ -62,10 +62,12 @@ export default function Users() {
 
   return (
     <div className="users">
-      <h1>User management dashboard</h1>
-      <p>
-        A web application to display users with search and filter options by name, gender, and city. Built using React JS and REST API.
-      </p>
+      <header>
+        <h1>User management dashboard</h1>
+        <p>
+          A web application to display users with search and filter options by name, gender, and city. Built using React JS and REST API.
+        </p>
+      </header>
 
 
       {/* Search */}

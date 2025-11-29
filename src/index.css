@@ -12,13 +12,13 @@ body {
   padding:10px;
 }
 
-h1{
+header h1{
   text-align: center;
   text-transform: uppercase;
   margin-bottom:10px;
 }
 
-p{
+header p{
   text-align: center;
   color:#555;
   font-size:1rem;
